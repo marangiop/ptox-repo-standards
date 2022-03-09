@@ -79,7 +79,7 @@ Click the `Add rule` button and enter the name or pattern of the branch(es) you 
 range of options to select from such as `Require a pull request before merging` and `Require approvals`.
 
 ### Code Quality:
-There are a lot of ways to assess the quality of a software project. We propose to review the 3 mains techniques that will you
+There are a lot of ways to assess the quality of a software project. We propose to review the 3 mains techniques that will help you with quality control: Continuous Integration (CI), linting and security audit.
 help you with quality control: Continuous Integration (CI), linting and security audit.
 
 #### Continuous Integration
