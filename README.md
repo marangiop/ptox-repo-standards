@@ -29,7 +29,6 @@ While most of our READMEs should have some common features, different repo types
 | Detailed [usage docs](write-usage-docs.md) for all features | [Usage examples](write-usage-docs.md)                           | &nbsp;  |
 | A [CONTRIBUTING](contributing-template.md) FILE | A [CONTRIBUTING](contributing-template.md) FILE                 |
 | A [CODE_OF_CONDUCT](code-of-conduct-template.md) FILE | A [CODE_OF_CONDUCT](code-of-conduct-template.md) FILE           |
-              |
 | &nbsp;                                          | Docker setup                                                    |
 | &nbsp;                                          | [One-click deployment setup](one-click-deploy.md)               |
 
