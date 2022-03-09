@@ -5,6 +5,10 @@
 This project contains checklists, templates and other resources to include with your repository. Whether you're starting a new repo from scratch or migrating an existing one hosted somewhere else, please include any or all of the elements suggested below as appropriate to your repo.
 If you're not sure where something goes, or you don't have permission to create a repo, talk to Ralf Weber or Albert Zhou or Paolo Marangio on Slack/e-mail.
 
+## How to use this repostory
+
+What you should is to use this entire repository as a template for your own Github repository within the context of PrecisionTox. To do that, you would simply fork this repository (i.e. basically creating a copy of this repo) and edit as you like, starting from obviously renaming the forked repo.
+
 ## Get the Basics Right
 
 Naming things is hard, this part is very important! Best practice: name the project after what it does rather than what it is made of. E.g. "joke telephone answering service" rather than "sinatra voice demo".
@@ -43,6 +47,8 @@ You may find these resources useful for structuring your project's README file 
 For every repo we recommend to have: `production-branch`, `dev-branch`,` username-branch` (e.g., muen-branch, Paolo-branch). The idea is that multiple developers can work on their respective `username-branch`, and then use pull requests to merge code to the `dev-branch`.
 The `production branch` is for a stable version of a given tool/library/infrastructure component, such that whenever changes in the `dev-branch` are merged to the `production-branch`, a new release is generated.
 
+@DOM: talk about protect specific branches from push operations
+
 ## Monorepos vs. multi-repos
 
 The naive approach to building different components of a data/IT infrastructure is to split the codebase into growing numbers of small repos, along the different team/project boundaries.
@@ -55,5 +61,6 @@ We therefore advise to use mono-repos wherever possible.
 More info about mono-repos can be found [here](https://ep2021.europython.eu/media/conference/slides/Agtzv5a-python-monorepos-what-why-and-how.pdf). 
 
 ## Monorepos build tools
-Since standard build tools are not designed for monorepos, if you decide to structure your repo as a monorepo we suggest to use [Pants](httpshttps://www.pantsbuild.org/) as build system. 
+Since standard build tools are not designed for monorepos, if you decide to structure your repo as a monorepo we suggest to use [Pants](https://www.pantsbuild.org/) as build system. 
 In a nutshell, Pants sits on top of existing standard build tools, and orchestrates them for you. 
+

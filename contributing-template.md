@@ -1,6 +1,6 @@
 # Getting Involved
 
-Thanks for your interest in the project, we'd love to have you involved! Check out the sections below to find out more about what to do next...
+Thanks for your interest in the repository, we'd love to have you involved! Check out the sections below to find out more about what to do next...
 
 ## Opening an Issue
 
@@ -14,7 +14,7 @@ When you're ready to start coding, fork this repository to your own GitHub accou
 
 ## Project Standards
 
-<!-- add whatever the developer needs to know here. How to run the tests, what coding standards are going on ... you tell me -->
+Add whatever the developer needs to know here. How to run the tests, what coding standards are going on
 
 
 
