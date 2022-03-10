@@ -56,11 +56,11 @@ Since standard build tools are not designed for monorepos, if you decide to stru
 In a nutshell, Pants sits on top of existing standard build tools, and orchestrates them for you. 
 
 
-## Advanced GitHub usage:
+## Advanced GitHub usage
 GitHub proposes a very wide range of features to help you organise your software projects and is easily extensible by third
 party tools.
 
-### Branches:
+### Branches
 We recommend organising repositories in such a way that your `main` or `production` branch is representing the latest stable version of 
 your project. This branch should be complemented by another permanent branch named `dev` where code will be merged and tested
 before landing into production. The usual pipeline is as followed:
@@ -78,7 +78,7 @@ The Settings >> Branches panel of your GitHub repository lets you set rules on h
 Click the `Add rule` button and enter the name or pattern of the branch(es) you want to control. You have a very broad
 range of options to select from such as `Require a pull request before merging` and `Require approvals`.
 
-### Code Quality:
+### Code Quality
 There are a lot of ways to assess the quality of a software project. We propose to review the 3 mains techniques that will help you with quality control: Continuous Integration (CI), linting and security audit.
 help you with quality control: Continuous Integration (CI), linting and security audit.
 
@@ -97,20 +97,20 @@ focus on what is important and becomes the more relevant as the numbers of devel
 In Python, the specification is called [`PEP8`](https://www.python.org/dev/peps/pep-0008/) and 
 one of the tool used to read and executes these rules is [`Flake8`](https://flake8.pycqa.org/en/latest/).
 
-#### Security Audits:
+#### Security Audits
 Security audits are much more language and infrastructure dependant but there exist a couple of tools that can help you automate
 part of the process by examining the repositories and looking for bad patterns. <br>
 We suggest addressing this issue by relying on [`Codacy`](https://www.codacy.com/), a third party tool that can extend the GitHub features. It
 can look for both linting issues and security risks by scanning the repositories and its dependencies and then reports
 potential issues directly in your GitHub dashboard.
 
-### Project Management:
+### Project Management
 GitHub also provide a tool to help you organise task priority in a Kanban style. Head to the `Projects` tab of your
 repository and click the second button in the left panel (the one not marked `Beta`). Then at the top right click `New project`,
 enter a name a select the `Automated kanban with reviews` template. <br>
 When creating new issues you can tag them with the project's name to make them appear in the kanban dashboard.
 
-### Automation:
+### Automation
 GitHub Actions, introduced in late 2019, are virtual machines (limitations apply) that can be executed directly in GitHub
 and automate a lot of operations. A few examples of this usage are Continuous Integration and Automated Releases and
 Automated Deployment. <br>
